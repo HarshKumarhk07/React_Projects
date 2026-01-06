@@ -50,7 +50,7 @@ function App() {
           readOnly
           ref={passwordRef}
         />
-        <button className="bg-blue-600 text-white shrink-0 py-0.5 px-3" onClick={copyPasswordToClipboardgit}>
+        <button className="bg-blue-600 text-white shrink-0 py-0.5 px-3" onClick={copyPasswordToClipboard}>
           Copy
         </button>
       </div>
